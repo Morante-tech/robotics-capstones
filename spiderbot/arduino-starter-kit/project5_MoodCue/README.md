@@ -7,6 +7,8 @@ _Video pending._
 
 ## Circuit
 
+![Circuit on the breadboard](circuit.jpg)
+
 | Component | Pin |
 |---|---|
 | Potentiometer | A0 |

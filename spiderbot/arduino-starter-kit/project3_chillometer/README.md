@@ -8,6 +8,8 @@ _Video pending._
 
 ## Circuit
 
+![Circuit on the breadboard](circuit.jpg)
+
 | Component | Pin |
 |---|---|
 | TMP36 temperature sensor ([datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/TMP35_36_37.pdf)) | A0 |

@@ -7,6 +7,8 @@ _Video pending._
 
 ## Circuit
 
+![Circuit on the breadboard](circuit.jpg)
+
 | Component | Pin |
 |---|---|
 | Phototransistors (red, green, blue gels) | A0, A1, A2 |
