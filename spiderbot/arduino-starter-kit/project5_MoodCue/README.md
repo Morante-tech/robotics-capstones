@@ -2,11 +2,7 @@
 
 A potentiometer sets the angle of a servo motor (0–179°).
 
-<!-- Video: edit this file on github.com and drag the clip (under 10 MB) here; GitHub turns it into an inline player. -->
-
-
 https://github.com/user-attachments/assets/b3881411-5b3b-4aa3-9bdf-ac7d223011b5
-
 
 ## Circuit
 
