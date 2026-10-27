@@ -3,7 +3,6 @@
 A push button switches between "idle" (green LED on) and "alarm" (red and yellow LEDs blinking alternately).
 
 <!-- Video: edit this file on github.com and drag the clip (under 10 MB) here; GitHub turns it into an inline player. -->
-_Video pending._
 
 ## Circuit
 
