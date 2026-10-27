@@ -11,7 +11,7 @@ description: Integrate the photos, videos, notes and code that Santi leaves in t
 | Repo (public) | `~/Repositories/robotics-capstones` → https://github.com/Morante-tech/robotics-capstones |
 | Originals, after integrating | `~/Library/Mobile Documents/com~apple~CloudDocs/Robotica/Originales/<capstone>/<project folder>/` |
 | Converted videos waiting for upload | `Robotica/Inbox/_para-subir/` |
-| Media script | `tools/process_media.py` in the repo |
+| Media script (not in the repo) | `~/Library/Mobile Documents/com~apple~CloudDocs/Robotica/tools/process_media.py` |
 
 ## Steps
 
@@ -21,11 +21,11 @@ description: Integrate the photos, videos, notes and code that Santi leaves in t
    A new project gets its folder named like its sketch (`projectN_Name/`).
 3. **Photos:** look at each one first. Crop out anything that must not be public: pages of books or manuals
    (copyright), screens, documents, faces, anything personal. Then:
-   `tools/process_media.py photo SRC <project>/circuit.jpg [--crop L T R B]` (crop as fractions of width/height).
+   `"<Robotica>/tools/process_media.py" photo SRC <project>/circuit.jpg [--crop L T R B]` (crop as fractions of width/height).
    Look at the result. If the project already has `circuit.jpg`, use `circuit-2.jpg`, etc.
 4. **Videos:** check a frame (`qlmanage -t -s 1200 -o <scratchpad> VIDEO`) for the same things as photos; if something
    private shows, tell Santi instead of publishing. Then
-   `tools/process_media.py video SRC "<Inbox>/_para-subir/<project>.mp4"`. Videos never go into git.
+   `"<Robotica>/tools/process_media.py" video SRC "<Inbox>/_para-subir/<project>.mp4"`. Videos never go into git.
 5. **Notes** (text, Markdown, transcribed voice notes): rewrite them in English, short, and add them to the project
    README under `## Notes`. Keep only facts about the build: what was done, what failed and how it was fixed.
 6. **Code** (`.ino`): copy to `<project>/<projectN_Name>.ino`; the folder and the sketch must share the name.
