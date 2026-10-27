@@ -4,7 +4,6 @@ A TMP36 temperature sensor lights up 0 to 3 LEDs depending on how far the temper
 (+2, +4 and +6 °C). Readings are printed on the serial monitor at 9600 baud.
 
 <!-- Video: edit this file on github.com and drag the clip (under 10 MB) here; GitHub turns it into an inline player. -->
-_Video pending._
 
 ## Circuit
 
