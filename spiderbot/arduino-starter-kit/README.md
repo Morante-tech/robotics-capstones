@@ -10,5 +10,6 @@ so pins and values may differ from the book.
 | 4 | [Color Mixing Lamp](project4_ColorMixingLamp/) | 2026-10-18 |
 | 5 | [Mood Cue](project5_MoodCue/) | 2026-10-24 |
 | 6 | [Light Theremin](project6_LightTheremin/) | 2026-10-27 |
+| 7 | [Keyboard Instrument](project7_KeyboardInstrument/) | 2026-10-29 |
 
 Each folder is an Arduino sketch: open the `.ino` file with the Arduino IDE.
