@@ -2,12 +2,7 @@
 
 A phototransistor sets the pitch of a piezo buzzer: more light, higher note.
 
-
-
 https://github.com/user-attachments/assets/dc0ede53-da70-44c3-a007-058d47268238
-
-
-
 
 ## Circuit
 

@@ -19,12 +19,10 @@ description: Integrate the photos, videos, notes and code that Santi leaves in t
 2. List the Inbox (skip `_para-subir/`). Match every file to a project folder by its name, e.g. `color miixing lamp.JPG` →
    `spiderbot/arduino-starter-kit/project4_ColorMixingLamp/`. If a file matches no existing project, or two, ask.
    A new project gets its folder named like its sketch (`projectN_Name/`).
-3. **Photos:** look at each one first. Crop out anything that must not be public: pages of books or manuals
-   (copyright), screens, documents, faces, anything personal. Then:
-   `"<Robotica>/tools/process_media.py" photo SRC <project>/circuit.jpg [--crop L T R B]` (crop as fractions of width/height).
-   Look at the result. If the project already has `circuit.jpg`, use `circuit-2.jpg`, etc.
-4. **Videos:** check a frame (`qlmanage -t -s 1200 -o <scratchpad> VIDEO`) for the same things as photos; if something
-   private shows, tell Santi instead of publishing. Then
+3. **Photos:** never crop them, and don't worry about copyright (book or manual pages in the shot are fine):
+   `"<Robotica>/tools/process_media.py" photo SRC <project>/circuit.jpg`.
+   If the project already has `circuit.jpg`, use `circuit-2.jpg`, etc.
+4. **Videos:** never crop or hold them back for copyright either:
    `"<Robotica>/tools/process_media.py" video SRC "<Inbox>/_para-subir/<project>.mp4"`. Videos never go into git.
 5. **Notes** (text, Markdown, transcribed voice notes): rewrite them in English, short, and add them to the project
    README under `## Notes`. Keep only facts about the build: what was done, what failed and how it was fixed.
@@ -33,7 +31,7 @@ description: Integrate the photos, videos, notes and code that Santi leaves in t
    `## Circuit` with the photo and a pin table taken from the code, and `## Notes` only if there is something to say.
    Add new projects to the table in the parent README with the build date (date of the photo/video if unknown).
    Keep the tone of the existing READMEs: terse, tables, no filler.
-8. Show Santi a summary of the changes (and the photos if they were cropped) and wait for the go-ahead. Then commit
+8. Show Santi a summary of the changes and wait for the go-ahead. Then commit
    and push. End the commit message with the attribution line the session gives.
 9. Move the integrated originals from the Inbox to `Originales/<capstone>/<project folder>/`. Never delete originals.
 10. For each video in `_para-subir/`, give Santi the link to edit the README on github.com
