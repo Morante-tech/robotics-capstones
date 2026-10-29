@@ -9,5 +9,6 @@ so pins and values may differ from the book.
 | 3 | [Love-o-Meter (chill-o-meter)](project3_chillometer/) | 2026-10-17 |
 | 4 | [Color Mixing Lamp](project4_ColorMixingLamp/) | 2026-10-18 |
 | 5 | [Mood Cue](project5_MoodCue/) | 2026-10-24 |
+| 6 | [Light Theremin](project6_LightTheremin/) | 2026-10-27 |
 
 Each folder is an Arduino sketch: open the `.ino` file with the Arduino IDE.
