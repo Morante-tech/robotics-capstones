@@ -2,7 +2,10 @@
 
 Four push buttons on a resistor ladder play C, D, E and F on a piezo buzzer, all read from a single analog pin.
 
-_Video pending._
+
+
+https://github.com/user-attachments/assets/6fa3ae25-8fb3-4d0f-b0ac-082649363080
+
 
 ## Circuit
 
