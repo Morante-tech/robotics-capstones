@@ -12,5 +12,6 @@ so pins and values may differ from the book.
 | 6 | [Light Theremin](project6_LightTheremin/) | 2026-10-27 |
 | 7 | [Keyboard Instrument](project7_KeyboardInstrument/) | 2026-10-29 |
 | 8 | [Digital Hourglass](project8_DigitalHourglass/) | 2026-10-30 |
+| 9 | [Motorized Pinwheel](project9_MotorizedPinwheel/) | 2026-10-30 |
 
 Each folder is an Arduino sketch: open the `.ino` file with the Arduino IDE.
