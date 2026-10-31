@@ -1,11 +1,17 @@
 # Robotics Capstones
 
 Build log of the robots I'm making while learning robotics from scratch. Each capstone is one robot, built end to end:
-the circuits and the code I studied for it, and then electronics, mechanics, firmware, photos and videos.
+electronics, mechanics, photos and videos.
 
 | Capstone | Robot | Status |
 |---|---|---|
-| [Spider-Bot](spiderbot/) | Replica of the Avengers Campus Spider-Bot: 8 legs driven by one motor, LED eyes, walks when switched on | Learning the basics with the Arduino Starter Kit R4 |
+| [Spider-Bot](spiderbot/) | Replica of the Avengers Campus Spider-Bot: 8 legs driven by one motor, LED eyes, walks when switched on | Planning |
+
+## Foundations
+
+| Track | What | Status |
+|---|---|---|
+| [Arduino Starter Kit R4](arduino-starter-kit/) | Projects from the Arduino Projects Book, towards the Arduino certification | In progress |
 
 ## License
 
