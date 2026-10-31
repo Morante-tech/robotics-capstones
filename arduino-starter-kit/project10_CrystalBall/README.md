@@ -2,7 +2,11 @@
 
 Tilting the board makes a 16x2 LCD show one of eight random answers, like a Magic 8 Ball.
 
-_Video pending._
+
+
+https://github.com/user-attachments/assets/77eafea8-c099-4946-96bc-fea489a7654e
+
+
 <!-- Video: Inbox/_para-subir/project10_CrystalBall.mp4 -->
 
 ## Circuit
