@@ -2,7 +2,10 @@
 
 Tilting the board makes a 16x2 LCD show one of eight random answers, like a Magic 8 Ball.
 
-https://github.com/user-attachments/assets/77eafea8-c099-4946-96bc-fea489a7654e
+
+
+https://github.com/user-attachments/assets/f6f5269a-a6f2-4aa3-926c-bd87f3fdb0bc
+
 
 ## Circuit
 
