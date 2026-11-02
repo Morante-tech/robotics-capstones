@@ -1,14 +1,8 @@
-
-
-
 # Project 11: Knock Lock
 
 A push button locks a servo latch; three knocks of the right strength on a piezo unlock it again.
 
 https://github.com/user-attachments/assets/80760163-45bd-4f5a-b09b-ea7a82b4dfee
-
-
-<!-- Video: Inbox/_para-subir/project11_KnockLock.mp4 -->
 
 ## Circuit
 
