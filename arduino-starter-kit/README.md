@@ -15,5 +15,6 @@ so pins and values may differ from the book.
 | 9 | [Motorized Pinwheel](project9_MotorizedPinwheel/) | 2026-10-30 |
 | 10 | [Crystal Ball](project10_CrystalBall/) | 2026-10-31 |
 | 11 | [Knock Lock](project11_KnockLock/) | 2026-11-02 |
+| 12 | [Touchy-Feely Lamp](project12_TouchyFeelyLamp/) | 2026-11-05 |
 
 Each folder is an Arduino sketch: open the `.ino` file with the Arduino IDE.
