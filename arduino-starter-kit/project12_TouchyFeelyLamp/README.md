@@ -2,10 +2,7 @@
 
 Touching a metal bowl wired to the board turns an LED on; letting go turns it off.
 
-
-
 https://github.com/user-attachments/assets/b9aab9e9-6a73-4f96-b2ad-714de606f6bf
-
 
 ## Circuit
 
